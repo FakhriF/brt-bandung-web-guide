@@ -1,43 +1,43 @@
-# Astro Starter Kit: Minimal
+# BRT Bandung Web Guide
 
-```sh
-bun create astro@latest -- --template minimal
-```
+Panduan interaktif rute dan halte Bus Rapid Transit (BRT) di Bandung. Proyek ini dibangun menggunakan [Astro](https://astro.build/) untuk performa yang optimal dan kemudahan pengembangan.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🚀 Fitur Utama
 
-## 🚀 Project Structure
+- **Peta Interaktif**: Visualisasi rute dan lokasi halte BRT di Bandung.
+- **Data Halte**: Informasi lengkap mengenai halte-halte yang tersedia (disimpan dalam format JSON).
+- **Galeri Survei**: Foto-foto kondisi halte hasil survei lapangan.
+- **Desain Responsif**: Nyaman diakses melalui perangkat desktop maupun mobile.
 
-Inside of your Astro project, you'll see the following folders and files:
+## 📁 Struktur Proyek
 
 ```text
 /
 ├── public/
+│   └── survey_picture/    # Foto-foto hasil survei halte
 ├── src/
-│   └── pages/
-│       └── index.astro
+│   ├── components/        # Komponen Astro (seperti Map.astro)
+│   ├── data/             # Data halte (shelters.json)
+│   ├── layouts/          # Tata letak halaman (Layout.astro)
+│   ├── pages/            # Halaman utama (index.astro)
+│   └── styles/           # File CSS global
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## 🛠️ Pengembangan
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Proyek ini menggunakan [Bun](https://bun.sh/) sebagai package manager.
 
-Any static assets, like images, can be placed in the `public/` directory.
+| Perintah              | Aksi                                             |
+| :-------------------- | :----------------------------------------------- |
+| `bun install`         | Menginstal dependensi                            |
+| `bun dev`             | Menjalankan server pengembangan di `localhost:4321` |
+| `bun build`           | Membuat build produksi di folder `./dist/`       |
+| `bun preview`         | Melakukan preview hasil build secara lokal       |
 
-## 🧞 Commands
+## 📝 Catatan Tambahan
 
-All commands are run from the root of the project, from a terminal:
+Data halte saat ini mencakup 39 lokasi survei dengan koordinat GPS dan foto-foto pendukung. Silakan periksa `src/data/shelters.json` untuk detail teknis data.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `bun install`             | Installs dependencies                            |
-| `bun dev`             | Starts local dev server at `localhost:4321`      |
-| `bun build`           | Build your production site to `./dist/`          |
-| `bun preview`         | Preview your build locally, before deploying     |
-| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `bun astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+---
+Dikembangkan dengan ❤️ untuk Bandung yang lebih baik.
