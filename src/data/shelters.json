@@ -1,0 +1,580 @@
+[
+  {
+    "id": 1,
+    "name": "Jalan Merdeka",
+    "type": "Big Shelter",
+    "coords": [
+      -6.912691,
+      107.610469
+    ],
+    "routes": [
+      "BRT03A",
+      "BRT03B",
+      "BRT15",
+      "BRT16"
+    ],
+    "description": "In front of ST. Angela school, across from Bandung City Hall. Existing shelters are in good condition.",
+    "recommendation": "Land area available is suitable for big shelter."
+  },
+  {
+    "id": 2,
+    "name": "Stasiun Timur",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.915185,
+      107.604540
+    ],
+    "routes": [
+      "BRT03A",
+      "BRT03B",
+      "BRT05",
+      "BRT08",
+      "BRT09",
+      "BRT15"
+    ],
+    "description": "On the left side of PD Warna Agung Store. Sidewalks in good condition.",
+    "recommendation": "Land area available is suitable for Medium shelter."
+  },
+  {
+    "id": 3,
+    "name": "Stasiun Bandung",
+    "type": "Big Shelter",
+    "coords": [
+      -6.912584,
+      107.602941
+    ],
+    "routes": [
+      "BRT02",
+      "BRT05",
+      "BRT09",
+      "BRT15",
+      "BRT16"
+    ],
+    "description": "In front of Coffee Shop. Sidewalk has a split level (step) at the back.",
+    "recommendation": "Land area available is suitable for big shelter."
+  },
+  {
+    "id": 4,
+    "name": "SMAN 6 Bandung",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.911359,
+      107.597851
+    ],
+    "routes": [
+      "BRT02",
+      "BRT05",
+      "BRT09",
+      "BRT15",
+      "BRT16"
+    ],
+    "description": "In front of SMAN 6 Bandung City. Sidewalk contains planting pots.",
+    "recommendation": "Suitable for partial Medium Shelter (shelter + totem)."
+  },
+  {
+    "id": 5,
+    "name": "SDN 013 Pasirkaliki",
+    "type": "Bus Pole",
+    "coords": [
+      -6.908097,
+      107.597617
+    ],
+    "routes": [
+      "BRT02",
+      "BRT05",
+      "BRT09",
+      "BRT15",
+      "BRT16"
+    ],
+    "description": "Across from SDN 013 Pasirkaliki. Impacted by pedestrian bridge structure.",
+    "recommendation": "Land insufficient; only suitable for bus poles."
+  },
+  {
+    "id": 6,
+    "name": "SMKN 12 Bandung",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.907035,
+      107.592526
+    ],
+    "routes": [
+      "BRT05"
+    ],
+    "description": "In front of SMKN 12 Bandung City. Existing bus stop in good condition.",
+    "recommendation": "Land area available is suitable for medium shelter."
+  },
+  {
+    "id": 7,
+    "name": "SMA Alfa Centauri",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.901202,
+      107.624187
+    ],
+    "routes": [
+      "BRT20"
+    ],
+    "description": "Left side of Alfa Centauri High School Gate. Impacts boundary garden.",
+    "recommendation": "Suitable for medium shelter (requires removal of park)."
+  },
+  {
+    "id": 8,
+    "name": "Seberang Stasiun Kiaracondong",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.923970,
+      107.644339
+    ],
+    "routes": [
+      "BRT05"
+    ],
+    "description": "Across from Kiaracondong Station. Sidewalk is partially dirt.",
+    "recommendation": "Land area available is suitable for medium shelter."
+  },
+  {
+    "id": 9,
+    "name": "Stasiun Kiaracondong",
+    "type": "Bus Pole",
+    "coords": [
+      -6.923902,
+      107.644488
+    ],
+    "routes": [
+      "BRT05"
+    ],
+    "description": "In front of Kiaracondong Station. Width is less than 2 meters.",
+    "recommendation": "Land insufficient width; only suitable for bus poles."
+  },
+  {
+    "id": 10,
+    "name": "SMKN 7 Bandung",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.939819,
+      107.660189
+    ],
+    "routes": [
+      "BRT10",
+      "BRT11",
+      "BRT13"
+    ],
+    "description": "In front of SMKN 7 Bandung. Affects Indosat manhole and one 40cm tree.",
+    "recommendation": "Land area available is suitable for medium shelter."
+  },
+  {
+    "id": 11,
+    "name": "B Expo (Tenth Avenue)",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.945867,
+      107.640947
+    ],
+    "routes": [
+      "BRT10",
+      "BRT13"
+    ],
+    "description": "In front of Tenth Avenue. Drainage behind the sidewalk can be utilized.",
+    "recommendation": "Can be extended by widening above drainage (within ROW)."
+  },
+  {
+    "id": 12,
+    "name": "Alun-Alun Cicendo",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.910662,
+      107.589178
+    ],
+    "routes": [
+      "BRT05"
+    ],
+    "description": "In front of Alun-Alun Cicendo. Affects park bench set.",
+    "recommendation": "Land area available is suitable for medium shelter."
+  },
+  {
+    "id": 13,
+    "name": "Jalan A. H. Nasution 1",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.904168,
+      107.666022
+    ],
+    "routes": [
+      "BRT01"
+    ],
+    "description": "In front of Kannasya café. Requires demolishing potted plants.",
+    "recommendation": "Suitable for shelter by demolishing potted plant (within ROW)."
+  },
+  {
+    "id": 14,
+    "name": "SDN Andir Kidul",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.913770,
+      107.695693
+    ],
+    "routes": [
+      "BRT01"
+    ],
+    "description": "In front of SDN 172 Andir Kidul. No existing sidewalk, currently a park.",
+    "recommendation": "Land area available is suitable for Medium shelter."
+  },
+  {
+    "id": 15,
+    "name": "Borma Cipadung",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.926354,
+      107.710791
+    ],
+    "routes": [
+      "BRT01"
+    ],
+    "description": "In front of Borma Cipadung. Existing bus stop was recently renovated (Feb 2025).",
+    "recommendation": "Land area available is suitable for Medium shelter."
+  },
+  {
+    "id": 16,
+    "name": "BIMC Bandung",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.946163,
+      107.631471
+    ],
+    "routes": [
+      "BRT15"
+    ],
+    "description": "In front of Bidakara Medical Center and Tomoro Coffee.",
+    "recommendation": "Suitable for partial Medium Shelter (shelter + totem)."
+  },
+  {
+    "id": 17,
+    "name": "Piset Square",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.934304,
+      107.625388
+    ],
+    "routes": [
+      "BRT04"
+    ],
+    "description": "In front of PISET Square. Existing sidewalk is in poor condition.",
+    "recommendation": "Land area available is suitable for Medium shelter."
+  },
+  {
+    "id": 18,
+    "name": "Superindo Moch Ramdan",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.937559,
+      107.610264
+    ],
+    "routes": [
+      "BRT15"
+    ],
+    "description": "Near Super Indo Moch. Ramdan. Roadside workshops in the vicinity.",
+    "recommendation": "Land area available is suitable for Medium shelter."
+  },
+  {
+    "id": 19,
+    "name": "Al-Irsyad Satya Islamic School",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.864826,
+      107.478326
+    ],
+    "routes": [
+      "BRT07"
+    ],
+    "description": "In front of Al-Irsyad School. Existing stop is on school land.",
+    "recommendation": "Suitable for partial Medium Shelter (shelter + totem)."
+  },
+  {
+    "id": 20,
+    "name": "Seberang Al-Irsyad Satya",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.865312,
+      107.478204
+    ],
+    "routes": [
+      "BRT07"
+    ],
+    "description": "Across from Al-Irsyad School. Sidewalk is in good condition.",
+    "recommendation": "Land area available is suitable for Medium shelter."
+  },
+  {
+    "id": 21,
+    "name": "Transmart Cimahi",
+    "type": "Bus Pole",
+    "coords": [
+      -6.869393,
+      107.533378
+    ],
+    "routes": [
+      "BRT07"
+    ],
+    "description": "In front of Transmart Cimahi. Width is only 1.35 meters.",
+    "recommendation": "Land insufficient; only suitable for bus poles."
+  },
+  {
+    "id": 22,
+    "name": "Pasar Antri Baru",
+    "type": "Bus Pole",
+    "coords": [
+      -6.880806,
+      107.538729
+    ],
+    "routes": [
+      "BRT07",
+      "BRT08"
+    ],
+    "description": "In front of Pasar Antri Baru and on the banks of Cimahi River.",
+    "recommendation": "Shelter not possible due to river edge; adjust size or use Totem."
+  },
+  {
+    "id": 23,
+    "name": "Samsat Cimahi",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.887070,
+      107.554817
+    ],
+    "routes": [
+      "BRT07",
+      "BRT08"
+    ],
+    "description": "In front of SAMSAT Cimahi office. Existing bus stop is damaged.",
+    "recommendation": "Land area available is suitable for Medium shelter."
+  },
+  {
+    "id": 24,
+    "name": "POLSEK Sukajadi",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.887882,
+      107.596723
+    ],
+    "routes": [
+      "BRT02"
+    ],
+    "description": "In front of Polsek Sukajadi. Existing bus stop size is 2x6.5m.",
+    "recommendation": "Land area available is suitable for Medium shelter."
+  },
+  {
+    "id": 25,
+    "name": "Universitas Pendidikan Indonesia",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.863483,
+      107.594379
+    ],
+    "routes": [
+      "BRT02",
+      "BRT09"
+    ],
+    "description": "Near UPI gate. Median option affects Welcome Signage.",
+    "recommendation": "Median option suitable; sidewalk option is too narrow."
+  },
+  {
+    "id": 26,
+    "name": "RS. Borromeus",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.893195,
+      107.613155
+    ],
+    "routes": [
+      "BRT03A"
+    ],
+    "description": "In front of Borromeus Hospital. Park area within ROW must be used.",
+    "recommendation": "Park must be demolished (within ROW) for edge design."
+  },
+  {
+    "id": 27,
+    "name": "Mengger Girang",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.938731,
+      107.613689
+    ],
+    "routes": [
+      "BRT10",
+      "BRT13"
+    ],
+    "description": "On road median. Drainage exists under the sidewalk.",
+    "recommendation": "Suitable for partial Medium Shelter (shelter + totem)."
+  },
+  {
+    "id": 28,
+    "name": "Buah Batu Square",
+    "type": "Bus Pole",
+    "coords": [
+      -6.967251,
+      107.637640
+    ],
+    "routes": [
+      "BRT15"
+    ],
+    "description": "In front of Buah Batu Square. Width is only 0.98 meters.",
+    "recommendation": "Land insufficient; only suitable for bus poles."
+  },
+  {
+    "id": 29,
+    "name": "SDN Cipagalo 03",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.966934,
+      107.637567
+    ],
+    "routes": [
+      "BRT15"
+    ],
+    "description": "In front of SDN Cipagalo 03. Drainage exists under the sidewalk.",
+    "recommendation": "Land area available is suitable for Medium shelter."
+  },
+  {
+    "id": 30,
+    "name": "PGRI Kabupaten Bandung",
+    "type": "Medium Shelter",
+    "coords": [
+      -7.006858,
+      107.551369
+    ],
+    "routes": [
+      "BRT12"
+    ],
+    "description": "In front of PGRI office. No sidewalks; current dirt road shoulders.",
+    "recommendation": "Suitable for partial Medium Shelter (shelter + totem)."
+  },
+  {
+    "id": 31,
+    "name": "SMPN 1 Katapang",
+    "type": "Bus Pole",
+    "coords": [
+      -7.006981,
+      107.551433
+    ],
+    "routes": [
+      "BRT12"
+    ],
+    "description": "In front of SMPN 1 Katapang. Dirt shoulder; affects 1 tree.",
+    "recommendation": "Land area available is suitable for bus poles."
+  },
+  {
+    "id": 32,
+    "name": "Borma Sayati",
+    "type": "Bus Pole",
+    "coords": [
+      -6.967400,
+      107.575428
+    ],
+    "routes": [
+      "BRT12"
+    ],
+    "description": "In front of Borma Sayati and Mie Gacoan. Width is only 0.75m.",
+    "recommendation": "Land insufficient; only suitable for bus poles."
+  },
+  {
+    "id": 33,
+    "name": "Pasar Caringin",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.942113,
+      107.583112
+    ],
+    "routes": [
+      "BRT10"
+    ],
+    "description": "In front of Caringin wholesale market. Site of a former bus stop.",
+    "recommendation": "Land area available is suitable for Medium shelter."
+  },
+  {
+    "id": 34,
+    "name": "Pasar Leuwipanjang",
+    "type": "Bus Pole",
+    "coords": [
+      -6.938760,
+      107.596932
+    ],
+    "routes": [
+      "BRT06"
+    ],
+    "description": "In front of Pasar Leuwipanjang. Width is only 1.3 meters.",
+    "recommendation": "Land insufficient; only suitable for bus poles."
+  },
+  {
+    "id": 35,
+    "name": "Pasar Cileunyi",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.940432,
+      107.753662
+    ],
+    "routes": [
+      "BRT13",
+      "BRT20"
+    ],
+    "description": "In front of Pasar Cileunyi. Dirt road shoulders with Angkot stop area.",
+    "recommendation": "Land area available is suitable for Medium shelter."
+  },
+  {
+    "id": 36,
+    "name": "Unpad Jatinangor Gate D",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.931553,
+      107.775830
+    ],
+    "routes": [
+      "BRT13",
+      "BRT20"
+    ],
+    "description": "In front of Unpad Jatinangor. Sidewalk is in good condition.",
+    "recommendation": "Suitable for partial Medium Shelter (shelter + totem)."
+  },
+  {
+    "id": 37,
+    "name": "Jatinangor Town Square",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.934011,
+      107.771334
+    ],
+    "routes": [
+      "BRT13",
+      "BRT20"
+    ],
+    "description": "In front of Jatinangor Town Square. Currently dirt road shoulders.",
+    "recommendation": "Land area available is suitable for Medium shelter."
+  },
+  {
+    "id": 18,
+    "name": "Masjid Al-Jabbar 2",
+    "type": "Bus Pole",
+    "coords": [
+      -6.946409,
+      107.704856
+    ],
+    "routes": [
+      "BRT10",
+      "BRT11"
+    ],
+    "description": "Across from Masjid Al-Jabbar. Width is only 1.8 meters.",
+    "recommendation": "Land insufficient; only suitable for bus poles."
+  },
+  {
+    "id": 39,
+    "name": "Masjid Al-Jabbar 1",
+    "type": "Medium Shelter",
+    "coords": [
+      -6.946596,
+      107.704804
+    ],
+    "routes": [
+      "BRT10",
+      "BRT11"
+    ],
+    "description": "In front of Masjid Al-Jabbar. Affected by occasional illegal parking.",
+    "recommendation": "Land area available is suitable for Medium shelter."
+  }
+]

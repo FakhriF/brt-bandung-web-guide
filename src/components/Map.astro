@@ -1,0 +1,109 @@
+---
+import shelterData from "../data/shelters.json";
+---
+
+<div id="map"></div>
+<div
+    id="image-modal"
+    onclick="window.closeImageModal()"
+    style="display:none; position:fixed; inset:0; z-index:9999; background:rgba(0,0,0,0.85); justify-content:center; align-items:center; cursor:pointer;"
+>
+    <img
+        id="modal-image"
+        src=""
+        style="max-width:90vw; max-height:90vh; border-radius:8px; box-shadow:0 4px 20px rgba(0,0,0,0.5);"
+    />
+</div>
+
+<style>
+    #map {
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+        z-index: 1;
+    }
+    .shelter-img {
+        width: 100%;
+        border-radius: 4px;
+        cursor: pointer;
+        transition:
+            transform 0.2s ease,
+            filter 0.2s ease;
+    }
+    .shelter-img:hover {
+        transform: scale(1.03);
+        filter: brightness(1.1);
+    }
+</style>
+
+<script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+></script>
+<link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+/>
+
+<script define:vars={{ shelterData }}>
+    const map = L.map("map").setView([-6.9175, 107.6191], 13);
+
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: "© OpenStreetMap contributors",
+    }).addTo(map);
+
+    shelterData.forEach((shelter) => {
+        let markerColor = "#3388ff"; // Default Blue
+        if (shelter.type === "Big Shelter") markerColor = "#FFD700"; // Gold
+        if (shelter.type === "Bus Pole") markerColor = "#FF4500"; // Red-Orange
+
+        const marker = L.circleMarker(shelter.coords, {
+            radius: 8,
+            fillColor: markerColor,
+            color: "#fff", // Border color
+            weight: 2, // Border width
+            opacity: 1,
+            fillOpacity: 0.8,
+        }).addTo(map);
+
+        marker.bindPopup(`
+      <div style="font-family: sans-serif;">
+        <h3 class="text-lg font-bold" style="margin: 0 0 5px 0;">${shelter.name}</h3>
+        <img src="/survey_picture/shelter-${shelter.id}.webp" class="shelter-img" onclick="openImageModal(this)" data-full="/survey_picture/shelter-${shelter.id}.webp" alt="${shelter.name}" />
+        <p><strong>Type:</strong> ${shelter.type}</p>
+        <hr />
+        <div>
+            <p style="font-weight: bold;">Recommendation:</p>
+            <p style="font-size: 0.9em; color: #555;">
+            ${shelter.recommendation}
+            </p>
+            <p style="font-weight: bold; margin-top: 10px;">BRT Routes: ${shelter.routes.join(", ")}</p>
+            <p style="font-size: 0.8em; color: #999;">${shelter.description}</p>
+        </div>
+        <small style="display: block; margin-top: 10px; color: #999;">Photo and detailed survey obtained from LARAP December 2025</small>
+      </div>
+    `);
+    });
+
+    window.openImageModal = function (img) {
+        const modal = document.getElementById("image-modal");
+        const modalImage = document.getElementById("modal-image");
+        if (modal && modalImage) {
+            modalImage.src = img.dataset.full || img.src;
+            modal.style.display = "flex";
+        }
+    };
+
+    window.closeImageModal = function () {
+        const modal = document.getElementById("image-modal");
+        const modalImage = document.getElementById("modal-image");
+        if (modal && modalImage) {
+            modal.style.display = "none";
+            modalImage.src = "";
+        }
+    };
+
+    document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") {
+            window.closeImageModal();
+        }
+    });
+</script>
