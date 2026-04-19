@@ -12,21 +12,52 @@ import Map from "../components/Map.astro";
         <div
             class="absolute top-6 right-6 z-[1000] bg-white/90 backdrop-blur-md rounded-xl shadow-2xl p-5 max-w-sm border border-white/20"
         >
-            <h1 class="text-2xl font-extrabold mb-2 tracking-tight text-gray-900 leading-tight">
-                Bandung BRT:<br/>Off-Corridor Shelter Map
+            <h1
+                class="text-2xl font-extrabold mb-2 tracking-tight text-gray-900 leading-tight"
+            >
+                Bandung BRT: Shelter Map
             </h1>
             <p class="text-gray-600 text-sm leading-relaxed mb-3">
                 Visualizing the 2026 construction phase based on the <a
                     href="https://transportforbandung.org/assets/pdf/Land%20Acquisition%20and%20Resettlement%20Action%20Plan%20BBMA%20BRT.pdf"
                     target="_blank"
                     class="text-blue-600 font-medium hover:underline inline-flex items-center gap-1"
-                    >LARAP Dec 2025 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a
+                    >LARAP Dec 2025 <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="12"
+                        height="12"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        ><path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                        ></path><polyline points="15 3 21 3 21 9"
+                        ></polyline><line x1="10" y1="14" x2="21" y2="3"
+                        ></line></svg
+                    ></a
                 >.
             </p>
             <div class="flex items-center gap-2 pt-3 border-t border-gray-100">
-                <span class="flex h-2 w-2 rounded-full bg-green-500 animate-pulse"></span>
-                <span class="text-[10px] font-bold uppercase tracking-widest text-gray-400">Interactive Survey Data</span>
+                <span
+                    class="flex h-2 w-2 rounded-full bg-green-500 animate-pulse"
+                ></span>
+                <span
+                    class="text-[10px] font-bold uppercase tracking-widest text-gray-400"
+                    >Interactive Survey Data</span
+                >
             </div>
         </div>
+
+        <a
+            href="https://github.com/FakhriF/brt-bandung-web-guide"
+            target="_blank"
+            class="absolute bottom-30 right-6 z-[1000] bg-gray-900 text-white px-4 py-2 rounded-full shadow-lg hover:bg-gray-800 transition-all flex items-center gap-2 text-sm font-bold border border-white/10"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+            Give Feedback
+        </a>
     </main>
 </Layout>

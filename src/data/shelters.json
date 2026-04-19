@@ -3,301 +3,162 @@
     "id": 1,
     "name": "Jalan Merdeka",
     "type": "Big Shelter",
-    "coords": [
-      -6.912691,
-      107.610469
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B",
-      "BRT15",
-      "BRT16"
-    ],
+    "coords": [-6.912691, 107.610469],
+    "routes": ["BRT03A", "BRT03B", "BRT15", "BRT16"],
     "description": "In front of ST. Angela school, across from Bandung City Hall. Existing shelters are in good condition.",
     "recommendation": "Land area available is suitable for big shelter.",
     "landOwnership": "Bandung City",
-    "impacts": [
-      "9 Iron poles",
-      "1 Concrete ball"
-    ]
+    "impacts": ["9 Iron poles", "1 Concrete ball"]
   },
   {
     "id": 2,
     "name": "Stasiun Timur",
     "type": "Medium Shelter",
-    "coords": [
-      -6.915185,
-      107.60454
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B",
-      "BRT05",
-      "BRT08",
-      "BRT09",
-      "BRT15"
-    ],
+    "coords": [-6.915185, 107.60454],
+    "routes": ["BRT03A", "BRT03B", "BRT05", "BRT08", "BRT09", "BRT15"],
     "description": "On the left side of PD Warna Agung Store. Sidewalks in good condition.",
     "recommendation": "Land area available is suitable for Medium shelter.",
     "landOwnership": "Bandung City",
-    "impacts": [
-      "2 Street vendors",
-      "1 TPE"
-    ]
+    "impacts": ["2 Street vendors", "1 TPE"]
   },
   {
     "id": 3,
     "name": "Stasiun Bandung",
     "type": "Big Shelter",
-    "coords": [
-      -6.912584,
-      107.602941
-    ],
-    "routes": [
-      "BRT02",
-      "BRT05",
-      "BRT09",
-      "BRT15",
-      "BRT16"
-    ],
+    "coords": [-6.912584, 107.602941],
+    "routes": ["BRT02", "BRT05", "BRT09", "BRT15", "BRT16"],
     "description": "In front of Coffee Shop. Sidewalk has a split level (step) at the back.",
     "recommendation": "Land area available is suitable for big shelter.",
     "landOwnership": "West Java Province",
-    "impacts": [
-      "Illegal on-street parking"
-    ]
+    "impacts": ["Illegal on-street parking"]
   },
   {
     "id": 4,
     "name": "SMAN 6 Bandung",
     "type": "Medium Shelter",
-    "coords": [
-      -6.911359,
-      107.597851
-    ],
-    "routes": [
-      "BRT02",
-      "BRT05",
-      "BRT09",
-      "BRT15",
-      "BRT16"
-    ],
+    "coords": [-6.911359, 107.597851],
+    "routes": ["BRT02", "BRT05", "BRT09", "BRT15", "BRT16"],
     "description": "In front of SMAN 6 Bandung City. Sidewalk contains planting pots.",
     "recommendation": "Suitable for partial Medium Shelter (shelter + totem).",
     "landOwnership": "West Java Province",
-    "impacts": [
-      "1 Road sign pole",
-      "3 Potted plants"
-    ]
+    "impacts": ["1 Road sign pole", "3 Potted plants"]
   },
   {
     "id": 5,
     "name": "SDN 013 Pasirkaliki",
     "type": "Bus Pole",
-    "coords": [
-      -6.908097,
-      107.597617
-    ],
-    "routes": [
-      "BRT02",
-      "BRT05",
-      "BRT09",
-      "BRT15",
-      "BRT16"
-    ],
+    "coords": [-6.908097, 107.597617],
+    "routes": ["BRT02", "BRT05", "BRT09", "BRT15", "BRT16"],
     "description": "Across from SDN 013 Pasirkaliki. Impacted by pedestrian bridge structure.",
     "recommendation": "Land insufficient; only suitable for bus poles.",
     "landOwnership": "West Java Province",
-    "impacts": [
-      "2 Trees",
-      "Pedestrian bridge structure"
-    ]
+    "impacts": ["2 Trees", "Pedestrian bridge structure"]
   },
   {
     "id": 6,
     "name": "SMKN 12 Bandung",
     "type": "Medium Shelter",
-    "coords": [
-      -6.907035,
-      107.592526
-    ],
-    "routes": [
-      "BRT05"
-    ],
+    "coords": [-6.907035, 107.592526],
+    "routes": ["BRT05"],
     "description": "In front of SMKN 12 Bandung City. Existing bus stop in good condition.",
     "recommendation": "Land area available is suitable for medium shelter.",
     "landOwnership": "National",
-    "impacts": [
-      "1 Street vendor",
-      "1 Road sign pole",
-      "1 Bus stop"
-    ]
+    "impacts": ["1 Street vendor", "1 Road sign pole", "1 Bus stop"]
   },
   {
     "id": 7,
     "name": "SMA Alfa Centauri",
     "type": "Medium Shelter",
-    "coords": [
-      -6.901202,
-      107.624187
-    ],
-    "routes": [
-      "BRT20"
-    ],
+    "coords": [-6.901202, 107.624187],
+    "routes": ["BRT20"],
     "description": "Left side of Alfa Centauri High School Gate. Impacts boundary garden.",
     "recommendation": "Suitable for medium shelter (requires removal of park).",
     "landOwnership": "West Java Province",
-    "impacts": [
-      "1 Tree",
-      "1 Bus stop sign",
-      "1 Street light"
-    ]
+    "impacts": ["1 Tree", "1 Bus stop sign", "1 Street light"]
   },
   {
     "id": 8,
     "name": "Seberang Stasiun Kiaracondong",
     "type": "Medium Shelter",
-    "coords": [
-      -6.92397,
-      107.644339
-    ],
-    "routes": [
-      "BRT05"
-    ],
+    "coords": [-6.92397, 107.644339],
+    "routes": ["BRT05"],
     "description": "Across from Kiaracondong Station. Sidewalk is partially dirt.",
     "recommendation": "Land area available is suitable for medium shelter.",
     "landOwnership": "Bandung City",
-    "impacts": [
-      "10 Potted plants"
-    ]
+    "impacts": ["10 Potted plants"]
   },
   {
     "id": 9,
     "name": "Stasiun Kiaracondong",
     "type": "Bus Pole",
-    "coords": [
-      -6.923902,
-      107.644488
-    ],
-    "routes": [
-      "BRT05"
-    ],
+    "coords": [-6.923902, 107.644488],
+    "routes": ["BRT05"],
     "description": "In front of Kiaracondong Station. Width is less than 2 meters.",
     "recommendation": "Land insufficient width; only suitable for bus poles.",
     "landOwnership": "Bandung City",
-    "impacts": [
-      "7 Iron poles"
-    ]
+    "impacts": ["7 Iron poles"]
   },
   {
     "id": 10,
     "name": "SMKN 7 Bandung",
     "type": "Medium Shelter",
-    "coords": [
-      -6.939819,
-      107.660189
-    ],
-    "routes": [
-      "BRT10",
-      "BRT11",
-      "BRT13"
-    ],
+    "coords": [-6.939819, 107.660189],
+    "routes": ["BRT10", "BRT11", "BRT13"],
     "description": "In front of SMKN 7 Bandung. Affects Indosat manhole and one 40cm tree.",
     "recommendation": "Land area available is suitable for medium shelter.",
     "landOwnership": "National",
-    "impacts": [
-      "1 Tree",
-      "6 Electricity/phone poles",
-      "1 Indosat manhole"
-    ]
+    "impacts": ["1 Tree", "6 Electricity/phone poles", "1 Indosat manhole"]
   },
   {
     "id": 11,
     "name": "B Expo (Tenth Avenue)",
     "type": "Medium Shelter",
-    "coords": [
-      -6.945867,
-      107.640947
-    ],
-    "routes": [
-      "BRT10",
-      "BRT13"
-    ],
+    "coords": [-6.945867, 107.640947],
+    "routes": ["BRT10", "BRT13"],
     "description": "In front of Tenth Avenue. Drainage behind the sidewalk can be utilized.",
     "recommendation": "Can be extended by widening above drainage (within ROW).",
     "landOwnership": "National",
-    "impacts": [
-      "3 Trees",
-      "1 Bus stop"
-    ]
+    "impacts": ["3 Trees", "1 Bus stop"]
   },
   {
     "id": 12,
     "name": "Alun-Alun Cicendo",
     "type": "Medium Shelter",
-    "coords": [
-      -6.910662,
-      107.589178
-    ],
-    "routes": [
-      "BRT05"
-    ],
+    "coords": [-6.910662, 107.589178],
+    "routes": ["BRT05"],
     "description": "In front of Alun-Alun Cicendo. Affects park bench set.",
     "recommendation": "Land area available is suitable for medium shelter.",
     "landOwnership": "Bandung City",
-    "impacts": [
-      "1 Set of park benches"
-    ]
+    "impacts": ["1 Set of park benches"]
   },
   {
     "id": 13,
     "name": "Jalan A. H. Nasution 1",
     "type": "Medium Shelter",
-    "coords": [
-      -6.904168,
-      107.666022
-    ],
-    "routes": [
-      "BRT01"
-    ],
+    "coords": [-6.904168, 107.666022],
+    "routes": ["BRT01"],
     "description": "In front of Kannasya café. Requires demolishing potted plants.",
     "recommendation": "Suitable for shelter by demolishing potted plant (within ROW).",
     "landOwnership": "National",
-    "impacts": [
-      "Potted plants"
-    ]
+    "impacts": ["Potted plants"]
   },
   {
     "id": 14,
     "name": "SDN Andir Kidul",
     "type": "Medium Shelter",
-    "coords": [
-      -6.91377,
-      107.695693
-    ],
-    "routes": [
-      "BRT01"
-    ],
+    "coords": [-6.91377, 107.695693],
+    "routes": ["BRT01"],
     "description": "In front of SDN 172 Andir Kidul. No existing sidewalk, currently a park.",
     "recommendation": "Land area available is suitable for Medium shelter.",
     "landOwnership": "National",
-    "impacts": [
-      "3 Trees",
-      "1 Bus stop",
-      "Park and name signage"
-    ]
+    "impacts": ["3 Trees", "1 Bus stop", "Park and name signage"]
   },
   {
     "id": 15,
     "name": "Borma Cipadung",
     "type": "Medium Shelter",
-    "coords": [
-      -6.926354,
-      107.710791
-    ],
-    "routes": [
-      "BRT01"
-    ],
+    "coords": [-6.926354, 107.710791],
+    "routes": ["BRT01"],
     "description": "In front of Borma Cipadung. Existing bus stop was recently renovated (Feb 2025).",
     "recommendation": "Land area available is suitable for Medium shelter.",
     "landOwnership": "National",
@@ -312,13 +173,8 @@
     "id": 16,
     "name": "BIMC Bandung",
     "type": "Medium Shelter",
-    "coords": [
-      -6.946163,
-      107.631471
-    ],
-    "routes": [
-      "BRT15"
-    ],
+    "coords": [-6.946163, 107.631471],
+    "routes": ["BRT15"],
     "description": "In front of Bidakara Medical Center and Tomoro Coffee.",
     "recommendation": "Suitable for partial Medium Shelter (shelter + totem).",
     "landOwnership": "Bandung City",
@@ -333,13 +189,8 @@
     "id": 17,
     "name": "Piset Square",
     "type": "Medium Shelter",
-    "coords": [
-      -6.934304,
-      107.625388
-    ],
-    "routes": [
-      "BRT04"
-    ],
+    "coords": [-6.934304, 107.625388],
+    "routes": ["BRT04"],
     "description": "In front of PISET Square. Existing sidewalk is in poor condition.",
     "recommendation": "Land area available is suitable for Medium shelter.",
     "landOwnership": "West Java Province",
@@ -355,88 +206,52 @@
     "id": 18,
     "name": "Superindo Moch Ramdan",
     "type": "Medium Shelter",
-    "coords": [
-      -6.937559,
-      107.610264
-    ],
-    "routes": [
-      "BRT15"
-    ],
+    "coords": [-6.937559, 107.610264],
+    "routes": ["BRT15"],
     "description": "Near Super Indo Moch. Ramdan. Roadside workshops in the vicinity.",
     "recommendation": "Land area available is suitable for Medium shelter.",
     "landOwnership": "West Java Province",
-    "impacts": [
-      "7 Roadside workshop workers",
-      "2 Trees"
-    ]
+    "impacts": ["7 Roadside workshop workers", "2 Trees"]
   },
   {
     "id": 19,
     "name": "Al-Irsyad Satya Islamic School",
     "type": "Medium Shelter",
-    "coords": [
-      -6.864826,
-      107.478326
-    ],
-    "routes": [
-      "BRT07"
-    ],
+    "coords": [-6.864826, 107.478326],
+    "routes": ["BRT07"],
     "description": "In front of Al-Irsyad School. Existing stop is on school land.",
     "recommendation": "Suitable for partial Medium Shelter (shelter + totem).",
     "landOwnership": "West Bandung Regency",
-    "impacts": [
-      "1 Bus stop"
-    ]
+    "impacts": ["1 Bus stop"]
   },
   {
     "id": 20,
     "name": "Seberang Al-Irsyad Satya",
     "type": "Medium Shelter",
-    "coords": [
-      -6.865312,
-      107.478204
-    ],
-    "routes": [
-      "BRT07"
-    ],
+    "coords": [-6.865312, 107.478204],
+    "routes": ["BRT07"],
     "description": "Across from Al-Irsyad School. Sidewalk is in good condition.",
     "recommendation": "Land area available is suitable for Medium shelter.",
     "landOwnership": "West Bandung Regency",
-    "impacts": [
-      "2 Palm trees",
-      "Landscaped area"
-    ]
+    "impacts": ["2 Palm trees", "Landscaped area"]
   },
   {
     "id": 21,
     "name": "Transmart Cimahi",
     "type": "Bus Pole",
-    "coords": [
-      -6.869393,
-      107.533378
-    ],
-    "routes": [
-      "BRT07"
-    ],
+    "coords": [-6.869393, 107.533378],
+    "routes": ["BRT07"],
     "description": "In front of Transmart Cimahi. Width is only 1.35 meters.",
     "recommendation": "Land insufficient; only suitable for bus poles.",
     "landOwnership": "National",
-    "impacts": [
-      "2 Potted plants"
-    ]
+    "impacts": ["2 Potted plants"]
   },
   {
     "id": 22,
     "name": "Pasar Antri Baru",
     "type": "Bus Pole",
-    "coords": [
-      -6.880806,
-      107.538729
-    ],
-    "routes": [
-      "BRT07",
-      "BRT08"
-    ],
+    "coords": [-6.880806, 107.538729],
+    "routes": ["BRT07", "BRT08"],
     "description": "In front of Pasar Antri Baru and on the banks of Cimahi River.",
     "recommendation": "Shelter not possible due to river edge; adjust size or use Totem.",
     "landOwnership": "Cimahi City",
@@ -451,111 +266,63 @@
     "id": 23,
     "name": "Samsat Cimahi",
     "type": "Medium Shelter",
-    "coords": [
-      -6.88707,
-      107.554817
-    ],
-    "routes": [
-      "BRT07",
-      "BRT08"
-    ],
+    "coords": [-6.88707, 107.554817],
+    "routes": ["BRT07", "BRT08"],
     "description": "In front of SAMSAT Cimahi office. Existing bus stop is damaged.",
     "recommendation": "Land area available is suitable for Medium shelter.",
     "landOwnership": "National",
-    "impacts": [
-      "2 Potted plants",
-      "1 Bench",
-      "1 Bus stop"
-    ]
+    "impacts": ["2 Potted plants", "1 Bench", "1 Bus stop"]
   },
   {
     "id": 24,
     "name": "POLSEK Sukajadi",
     "type": "Medium Shelter",
-    "coords": [
-      -6.887882,
-      107.596723
-    ],
-    "routes": [
-      "BRT02"
-    ],
+    "coords": [-6.887882, 107.596723],
+    "routes": ["BRT02"],
     "description": "In front of Polsek Sukajadi. Existing bus stop size is 2x6.5m.",
     "recommendation": "Land area available is suitable for Medium shelter.",
     "landOwnership": "West Java Province",
-    "impacts": [
-      "1 Street vendor",
-      "1 Electricity pole",
-      "1 Bus stop"
-    ]
+    "impacts": ["1 Street vendor", "1 Electricity pole", "1 Bus stop"]
   },
   {
     "id": 25,
     "name": "Universitas Pendidikan Indonesia",
     "type": "Medium Shelter",
-    "coords": [
-      -6.863483,
-      107.594379
-    ],
-    "routes": [
-      "BRT02",
-      "BRT09"
-    ],
+    "coords": [-6.863483, 107.594379],
+    "routes": ["BRT02", "BRT09"],
     "description": "Near UPI gate. Median option affects Welcome Signage.",
     "recommendation": "Median option suitable; sidewalk option is too narrow.",
     "landOwnership": "West Java Province",
-    "impacts": [
-      "Welcome signage"
-    ]
+    "impacts": ["Welcome signage"]
   },
   {
     "id": 26,
     "name": "RS. Borromeus",
     "type": "Medium Shelter",
-    "coords": [
-      -6.893195,
-      107.613155
-    ],
-    "routes": [
-      "BRT03A"
-    ],
+    "coords": [-6.893195, 107.613155],
+    "routes": ["BRT03A"],
     "description": "In front of Borromeus Hospital. Park area within ROW must be used.",
     "recommendation": "Park must be demolished (within ROW) for edge design.",
     "landOwnership": "Bandung City",
-    "impacts": [
-      "Park and plants"
-    ]
+    "impacts": ["Park and plants"]
   },
   {
     "id": 27,
     "name": "Mengger Girang",
     "type": "Medium Shelter",
-    "coords": [
-      -6.948763,
-      107.613691
-    ],
-    "routes": [
-      "BRT10",
-      "BRT13"
-    ],
+    "coords": [-6.948763, 107.613691],
+    "routes": ["BRT10", "BRT13"],
     "description": "On road median. Drainage exists under the sidewalk.",
     "recommendation": "Suitable for partial Medium Shelter (shelter + totem).",
     "landOwnership": "National",
-    "impacts": [
-      "1 Angkot signpost"
-    ],
-    "status": "Approximate"
+    "impacts": ["1 Angkot signpost"]
   },
   {
     "id": 28,
     "name": "Buah Batu Square",
     "type": "Bus Pole",
-    "coords": [
-      -6.967251,
-      107.63764
-    ],
-    "routes": [
-      "BRT15"
-    ],
+    "coords": [-6.967251, 107.63764],
+    "routes": ["BRT15"],
     "description": "In front of Buah Batu Square. Width is only 0.98 meters.",
     "recommendation": "Land insufficient; only suitable for bus poles.",
     "landOwnership": "West Java Province",
@@ -565,13 +332,8 @@
     "id": 29,
     "name": "SDN Cipagalo 03",
     "type": "Medium Shelter",
-    "coords": [
-      -6.966934,
-      107.637567
-    ],
-    "routes": [
-      "BRT15"
-    ],
+    "coords": [-6.966934, 107.637567],
+    "routes": ["BRT15"],
     "description": "In front of SDN Cipagalo 03. Drainage exists under the sidewalk.",
     "recommendation": "Land area available is suitable for Medium shelter.",
     "landOwnership": "West Java Province",
@@ -581,127 +343,74 @@
     "id": 30,
     "name": "PGRI Kabupaten Bandung",
     "type": "Medium Shelter",
-    "coords": [
-      -7.006858,
-      107.551369
-    ],
-    "routes": [
-      "BRT12"
-    ],
+    "coords": [-7.006858, 107.551369],
+    "routes": ["BRT12"],
     "description": "In front of PGRI office. No sidewalks; current dirt road shoulders.",
     "recommendation": "Suitable for partial Medium Shelter (shelter + totem).",
     "landOwnership": "West Java Province",
-    "impacts": [
-      "Illegal parking"
-    ]
+    "impacts": ["Illegal parking"]
   },
   {
     "id": 31,
     "name": "SMPN 1 Katapang",
     "type": "Bus Pole",
-    "coords": [
-      -7.006981,
-      107.551433
-    ],
-    "routes": [
-      "BRT12"
-    ],
+    "coords": [-7.006981, 107.551433],
+    "routes": ["BRT12"],
     "description": "In front of SMPN 1 Katapang. Dirt shoulder; affects 1 tree.",
     "recommendation": "Land area available is suitable for bus poles.",
     "landOwnership": "West Java Province",
-    "impacts": [
-      "1 Tree",
-      "1 Telephone manhole"
-    ]
+    "impacts": ["1 Tree", "1 Telephone manhole"]
   },
   {
     "id": 32,
     "name": "Borma Sayati",
     "type": "Bus Pole",
-    "coords": [
-      -6.9674,
-      107.575428
-    ],
-    "routes": [
-      "BRT12"
-    ],
+    "coords": [-6.9674, 107.575428],
+    "routes": ["BRT12"],
     "description": "In front of Borma Sayati and Mie Gacoan. Width is only 0.75m.",
     "recommendation": "Land insufficient; only suitable for bus poles.",
     "landOwnership": "West Java Province",
-    "impacts": [
-      "1 Street vendor"
-    ]
+    "impacts": ["1 Street vendor"]
   },
   {
     "id": 33,
     "name": "Pasar Caringin",
     "type": "Medium Shelter",
-    "coords": [
-      -6.942113,
-      107.583112
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.942113, 107.583112],
+    "routes": ["BRT10"],
     "description": "In front of Caringin wholesale market. Site of a former bus stop.",
     "recommendation": "Land area available is suitable for Medium shelter.",
     "landOwnership": "National",
-    "impacts": [
-      "Illegal on-street parking"
-    ]
+    "impacts": ["Illegal on-street parking"]
   },
   {
     "id": 34,
     "name": "Pasar Leuwipanjang",
     "type": "Bus Pole",
-    "coords": [
-      -6.93876,
-      107.596932
-    ],
-    "routes": [
-      "BRT06",
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.93876, 107.596932],
+    "routes": ["BRT06", "BRT03A", "BRT03B"],
     "description": "In front of Pasar Leuwipanjang. Width is only 1.3 meters.",
     "recommendation": "Land insufficient; only suitable for bus poles.",
     "landOwnership": "Bandung City",
-    "impacts": [
-      "1 TPE Machine"
-    ]
+    "impacts": ["1 TPE Machine"]
   },
   {
     "id": 35,
     "name": "Pasar Cileunyi",
     "type": "Medium Shelter",
-    "coords": [
-      -6.940432,
-      107.753662
-    ],
-    "routes": [
-      "BRT13",
-      "BRT20"
-    ],
+    "coords": [-6.940432, 107.753662],
+    "routes": ["BRT13", "BRT20"],
     "description": "In front of Pasar Cileunyi. Dirt road shoulders with Angkot stop area.",
     "recommendation": "Land area available is suitable for Medium shelter.",
     "landOwnership": "National",
-    "impacts": [
-      "1 Street vendor",
-      "Angkot stop area"
-    ]
+    "impacts": ["1 Street vendor", "Angkot stop area"]
   },
   {
     "id": 36,
     "name": "Unpad Jatinangor Gate D",
     "type": "Medium Shelter",
-    "coords": [
-      -6.931553,
-      107.77583
-    ],
-    "routes": [
-      "BRT13",
-      "BRT20"
-    ],
+    "coords": [-6.931553, 107.77583],
+    "routes": ["BRT13", "BRT20"],
     "description": "In front of Unpad Jatinangor. Sidewalk is in good condition.",
     "recommendation": "Suitable for partial Medium Shelter (shelter + totem).",
     "landOwnership": "National",
@@ -711,14 +420,8 @@
     "id": 37,
     "name": "Jatinangor Town Square",
     "type": "Medium Shelter",
-    "coords": [
-      -6.934011,
-      107.771334
-    ],
-    "routes": [
-      "BRT13",
-      "BRT20"
-    ],
+    "coords": [-6.934011, 107.771334],
+    "routes": ["BRT13", "BRT20"],
     "description": "In front of Jatinangor Town Square. Currently dirt road shoulders.",
     "recommendation": "Land area available is suitable for Medium shelter.",
     "landOwnership": "National",
@@ -728,14 +431,8 @@
     "id": 38,
     "name": "Masjid Al-Jabbar 2",
     "type": "Bus Pole",
-    "coords": [
-      -6.946409,
-      107.704856
-    ],
-    "routes": [
-      "BRT10",
-      "BRT11"
-    ],
+    "coords": [-6.946409, 107.704856],
+    "routes": ["BRT10", "BRT11"],
     "description": "Across from Masjid Al-Jabbar. Width is only 1.8 meters.",
     "recommendation": "Land insufficient; only suitable for bus poles.",
     "landOwnership": "Bandung City",
@@ -745,36 +442,20 @@
     "id": 39,
     "name": "Masjid Al-Jabbar 1",
     "type": "Medium Shelter",
-    "coords": [
-      -6.946596,
-      107.704804
-    ],
-    "routes": [
-      "BRT10",
-      "BRT11"
-    ],
+    "coords": [-6.946596, 107.704804],
+    "routes": ["BRT10", "BRT11"],
     "description": "In front of Masjid Al-Jabbar. Affected by occasional illegal parking.",
     "recommendation": "Land area available is suitable for Medium shelter.",
     "landOwnership": "Bandung City",
-    "impacts": [
-      "2 Concrete balls",
-      "Illegal parking"
-    ]
+    "impacts": ["2 Concrete balls", "Illegal parking"]
   },
   {
     "id": 3000,
     "name": "Terminal Leuwipanjang Soekarno-Hatta Selatan",
     "type": "Big Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.945873,
-      107.5933345
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B",
-      "BRT10"
-    ],
+    "coords": [-6.945873, 107.5933345],
+    "routes": ["BRT03A", "BRT03B", "BRT10"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -785,14 +466,8 @@
     "name": "Seberang RSUD Bandung Kiwari",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.943135,
-      107.591252
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.943135, 107.591252],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -803,14 +478,8 @@
     "name": "SDN 099 Babakan Tarogong",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.938491,
-      107.594108
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.938491, 107.594108],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -821,14 +490,8 @@
     "name": "RS Immanuel Jalan Peta",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.93737542297197,
-      107.5962067565049
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.93737542297197, 107.5962067565049],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -839,14 +502,8 @@
     "name": "Peta Jamhari",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.937338784424256,
-      107.59981353061008
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.937338784424256, 107.59981353061008],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -854,17 +511,11 @@
   },
   {
     "id": 3005,
-    "name": "BS06A",
+    "name": "Taman Tegallega",
     "type": "On Corridor",
     "status": "Approximate",
-    "coords": [
-      -6.93725204399412,
-      107.60393866654347
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.93725204399412, 107.60393866654347],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -872,17 +523,11 @@
   },
   {
     "id": 3006,
-    "name": "BS07",
+    "name": "Ciateul",
     "type": "On Corridor",
     "status": "Approximate",
-    "coords": [
-      -6.936508115980832,
-      107.60621448126153
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.936508115980832, 107.60621448126153],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -890,17 +535,11 @@
   },
   {
     "id": 3007,
-    "name": "BS08",
+    "name": "ITC Kebon Kelapa",
     "type": "On Corridor",
     "status": "Approximate",
-    "coords": [
-      -6.927530455086607,
-      107.60673832737399
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.927530455086607, 107.60673832737399],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -908,17 +547,11 @@
   },
   {
     "id": 3008,
-    "name": "BS09",
+    "name": "Kepatihan",
     "type": "On Corridor",
     "status": "Approximate",
-    "coords": [
-      -6.923844,
-      107.606213
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.923844, 107.606213],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -926,17 +559,11 @@
   },
   {
     "id": 3009,
-    "name": "BS10",
+    "name": "Alun Alun",
     "type": "On Corridor",
     "status": "Approximate",
-    "coords": [
-      -6.921270229066613,
-      107.6071110655649
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.921270229066613, 107.6071110655649],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -944,17 +571,11 @@
   },
   {
     "id": 3010,
-    "name": "BS20",
+    "name": "Dulatip",
     "type": "On Corridor",
     "status": "Approximate",
-    "coords": [
-      -6.920627034509922,
-      107.6021523214063
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.920627034509922, 107.6021523214063],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -965,14 +586,8 @@
     "name": "Gardu Jati",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.919464,
-      107.598255
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.919464, 107.598255],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -980,17 +595,11 @@
   },
   {
     "id": 3012,
-    "name": "BS01",
+    "name": "Stasiun Hall",
     "type": "On Corridor",
     "status": "Approximate",
-    "coords": [
-      -6.9160537911124385,
-      107.60253148834067
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.9160537911124385, 107.60253148834067],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1001,14 +610,8 @@
     "name": "Perintis Kemerdekaan",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.913971,
-      107.607895
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.913971, 107.607895],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1019,14 +622,8 @@
     "name": "SMKN 1 Bandung",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.913004,
-      107.608981
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.913004, 107.608981],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1037,14 +634,8 @@
     "name": "ASM Kencana Bandung",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.912567880593178,
-      107.60899547507618
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.912567880593178, 107.60899547507618],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1055,14 +646,8 @@
     "name": "Simpang Cicendo",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.90721173116907,
-      107.60521763157116
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.90721173116907, 107.60521763157116],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1073,14 +658,8 @@
     "name": "Kimia Farma Cihampelas",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.905800696375767,
-      107.60433332948703
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.905800696375767, 107.60433332948703],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1091,14 +670,8 @@
     "name": "Hotel California",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.903959456083955,
-      107.60545093701724
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.903959456083955, 107.60545093701724],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1109,14 +682,8 @@
     "name": "Wastukencana",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.905972274548944,
-      107.60775528197708
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.905972274548944, 107.60775528197708],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1127,14 +694,8 @@
     "name": "The 101 Hotel Dago",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.906345762268086,
-      107.61048899689914
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.906345762268086, 107.61048899689914],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1145,14 +706,8 @@
     "name": "Seberang Super Indo Dago",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.90171068868512,
-      107.61178353877109
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.90171068868512, 107.61178353877109],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1163,14 +718,8 @@
     "name": "Sulanjana",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.900321060641703,
-      107.61234732632961
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.900321060641703, 107.61234732632961],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1181,14 +730,8 @@
     "name": "SMAN 1 Bandung",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.895415517310519,
-      107.61281916060307
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.895415517310519, 107.61281916060307],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1199,14 +742,8 @@
     "name": "Seberang RS Borromeus",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.8942826992017565,
-      107.61289925825919
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.8942826992017565, 107.61289925825919],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1217,14 +754,8 @@
     "name": "Dayang Sumbi",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.886879900053724,
-      107.6134902439772
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.886879900053724, 107.6134902439772],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1235,14 +766,8 @@
     "name": "Dinas Bina Teknik SDA",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.883298,
-      107.614517
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.883298, 107.614517],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1253,14 +778,8 @@
     "name": "SMP Darul Hikam",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.878972727677539,
-      107.61646792323886
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.878972727677539, 107.61646792323886],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1271,14 +790,8 @@
     "name": "Kanayakan",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.8773173251151345,
-      107.61725858540161
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.8773173251151345, 107.61725858540161],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1289,14 +802,8 @@
     "name": "Dago Pojok",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.874047485734695,
-      107.61911826302887
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.874047485734695, 107.61911826302887],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1307,14 +814,8 @@
     "name": "Dago",
     "type": "Big Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.8670625881483796,
-      107.62106633911985
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.8670625881483796, 107.62106633911985],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1325,14 +826,8 @@
     "name": "Sheraton Bandung",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.874219370224957,
-      107.61921711141316
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.874219370224957, 107.61921711141316],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1343,14 +838,8 @@
     "name": "Borma Dago --6.8768834440848785, 107.61778557019885",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.8768834440848785,
-      107.61778557019885
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.8768834440848785, 107.61778557019885],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1361,14 +850,8 @@
     "name": "PT LAPI ITB",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.879769019926474,
-      107.61645150542545
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.879769019926474, 107.61645150542545],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1379,14 +862,8 @@
     "name": "Klinik Kimia Farma Dago",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.8774331741967485,
-      107.61740895990278
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.8774331741967485, 107.61740895990278],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1397,13 +874,8 @@
     "name": "BRI Dago",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.8879109045967315,
-      107.61361397689261
-    ],
-    "routes": [
-      "BRT03A"
-    ],
+    "coords": [-6.8879109045967315, 107.61361397689261],
+    "routes": ["BRT03A"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1414,14 +886,8 @@
     "name": "STMIK LIKMI",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.895434223902376,
-      107.61298650437308
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.895434223902376, 107.61298650437308],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1432,14 +898,8 @@
     "name": "MNC Bank Dago",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.899470769930084,
-      107.61279845382303
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.899470769930084, 107.61279845382303],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1450,14 +910,8 @@
     "name": "Super Indo Dago",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.901802265465561,
-      107.61193983135266
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.901802265465561, 107.61193983135266],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1468,14 +922,8 @@
     "name": "Bank BTPN Dago",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.905305657892495,
-      107.61070052531785
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.905305657892495, 107.61070052531785],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1486,14 +934,8 @@
     "name": "Bandung Indah Plaza",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.908583745295623,
-      107.61064554040956
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.908583745295623, 107.61064554040956],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1504,14 +946,8 @@
     "name": "Simpang Braga",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.915891685186414,
-      107.6089834128548
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.915891685186414, 107.6089834128548],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1522,14 +958,8 @@
     "name": "Braga Citywalk",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.916126192451117,
-      107.6079396189078
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.916126192451117, 107.6079396189078],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1537,17 +967,11 @@
   },
   {
     "id": 3043,
-    "name": "BS02",
+    "name": "Pasar Baru",
     "type": "On Corridor",
     "status": "Approximate",
-    "coords": [
-      -6.9177641992418435,
-      107.60438134832185
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.9177641992418435, 107.60438134832185],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1555,17 +979,11 @@
   },
   {
     "id": 3044,
-    "name": "BS03",
+    "name": "Dalem Kaum",
     "type": "On Corridor",
     "status": "Approximate",
-    "coords": [
-      -6.921994,
-      107.604043
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.921994, 107.604043],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1573,17 +991,11 @@
   },
   {
     "id": 3045,
-    "name": "BS04",
+    "name": "Pasir Koja",
     "type": "On Corridor",
     "status": "Approximate",
-    "coords": [
-      -6.928046,
-      107.60367
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.928046, 107.60367],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1591,17 +1003,11 @@
   },
   {
     "id": 3046,
-    "name": "BS05",
+    "name": "Tegallega",
     "type": "On Corridor",
     "status": "Approximate",
-    "coords": [
-      -6.934026,
-      107.60333
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.934026, 107.60333],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1612,14 +1018,8 @@
     "name": "Muara Raya",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.937564487666739,
-      107.59983754603317
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.937564487666739, 107.59983754603317],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1630,14 +1030,8 @@
     "name": "Leuwi Anyar 2",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.943005,
-      107.595972
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.943005, 107.595972],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1648,14 +1042,8 @@
     "name": "Terminal Leuwipanjang",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.946006,
-      107.595415
-    ],
-    "routes": [
-      "BRT03A",
-      "BRT03B"
-    ],
+    "coords": [-6.946006, 107.595415],
+    "routes": ["BRT03A", "BRT03B"],
     "description": "Position mapped by user for BRT03A",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1666,13 +1054,8 @@
     "name": "UNIKOM",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.887311,
-      107.615217
-    ],
-    "routes": [
-      "BRT03B"
-    ],
+    "coords": [-6.887311, 107.615217],
+    "routes": ["BRT03B"],
     "description": "Position mapped by user for BRT03B",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1683,13 +1066,8 @@
     "name": "Dipatiukur 1",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.890157375226691,
-      107.6165947020693
-    ],
-    "routes": [
-      "BRT03B"
-    ],
+    "coords": [-6.890157375226691, 107.6165947020693],
+    "routes": ["BRT03B"],
     "description": "Position mapped by user for BRT03B",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1700,13 +1078,8 @@
     "name": "Monumen Perjuangan",
     "type": "Big Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.892895,
-      107.618079
-    ],
-    "routes": [
-      "BRT03B"
-    ],
+    "coords": [-6.892895, 107.618079],
+    "routes": ["BRT03B"],
     "description": "Position mapped by user for BRT03B",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1717,13 +1090,8 @@
     "name": "Hasanudin",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.894868290207031,
-      107.61534099655232
-    ],
-    "routes": [
-      "BRT03B"
-    ],
+    "coords": [-6.894868290207031, 107.61534099655232],
+    "routes": ["BRT03B"],
     "description": "Position mapped by user for BRT03B",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1734,13 +1102,8 @@
     "name": "Stasiun Kereta Cepat Tegalluar",
     "type": "Big Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.96448,
-      107.715291
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.96448, 107.715291],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1751,13 +1114,8 @@
     "name": "Gerbang Merah GBLA 1",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.959232,
-      107.713727
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.959232, 107.713727],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1768,13 +1126,8 @@
     "name": "Gerbang Biru GBLA 1",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.95698,
-      107.710599
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.95698, 107.710599],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1785,13 +1138,8 @@
     "name": "Stasiun Cimekar 1",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.948417,
-      107.709915
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.948417, 107.709915],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1802,13 +1150,8 @@
     "name": "Pasar Modern Sinpansa 1",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.952544,
-      107.697749
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.952544, 107.697749],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1819,13 +1162,8 @@
     "name": "Summarecon Mall Bandung 1",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.955885,
-      107.699211
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.955885, 107.699211],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1836,13 +1174,8 @@
     "name": "Plaza Summarecon Bandung",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.955492,
-      107.693987
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.955492, 107.693987],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1853,13 +1186,8 @@
     "name": "Seberang PT Primarindo Asia",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.947492816438445,
-      107.68843999602505
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.947492816438445, 107.68843999602505],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1870,13 +1198,8 @@
     "name": "SPBU Gedebage Selatan",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.9450630297296705,
-      107.68894010179771
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.9450630297296705, 107.68894010179771],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1887,13 +1210,8 @@
     "name": "Gedebage Selatan 1",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.94180068702656,
-      107.6917075307736
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.94180068702656, 107.6917075307736],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1904,13 +1222,8 @@
     "name": "Cinambo 1",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.94063050043164,
-      107.69189409716735
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.94063050043164, 107.69189409716735],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1921,13 +1234,8 @@
     "name": "Simpang Gedebage 1",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.937247583801797,
-      107.69157695168646
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.937247583801797, 107.69157695168646],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1938,13 +1246,8 @@
     "name": "Dinas Koperasi Provinsi Jawa Barat",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.937703,
-      107.685907
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.937703, 107.685907],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1955,13 +1258,8 @@
     "name": "Ranca Mekar",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.938128900929126,
-      107.67939813077969
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.938128900929126, 107.67939813077969],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1972,13 +1270,8 @@
     "name": "Cipamokolan",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.938337,
-      107.676846
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.938337, 107.676846],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -1989,13 +1282,8 @@
     "name": "Komplek Aria Graha",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.938613,
-      107.672863
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.938613, 107.672863],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2006,13 +1294,8 @@
     "name": "RS Al Islam",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.93884,
-      107.669325
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.93884, 107.669325],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2023,13 +1306,8 @@
     "name": "Metro Soekarno-Hatta",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.939041,
-      107.666676
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.939041, 107.666676],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2040,13 +1318,8 @@
     "name": "Rancabolang",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.939319,
-      107.663299
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.939319, 107.663299],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2057,13 +1330,8 @@
     "name": "Metro Indah Mall",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.940448,
-      107.658039
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.940448, 107.658039],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2074,13 +1342,8 @@
     "name": "Cidurian 1",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.942072,
-      107.652929
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.942072, 107.652929],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2091,13 +1354,8 @@
     "name": "Cijawura",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.943902,
-      107.647136
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.943902, 107.647136],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2108,30 +1366,8 @@
     "name": "Universitas Islam Nusantara",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.944903,
-      107.64411
-    ],
-    "routes": [
-      "BRT10"
-    ],
-    "description": "Position mapped by user for BRT10",
-    "recommendation": "Approximate location.",
-    "landOwnership": "Unknown",
-    "impacts": []
-  },
-  {
-    "id": 3077,
-    "name": "B Expo",
-    "type": "Medium Shelter",
-    "status": "Approximate",
-    "coords": [
-      -6.945901,
-      107.640867
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.944903, 107.64411],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2142,13 +1378,8 @@
     "name": "Sekelimus Tengah",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.946705,
-      107.638137
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.946705, 107.638137],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2159,13 +1390,8 @@
     "name": "SPBU Simpang Buahbatu",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.947554,
-      107.63532
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.947554, 107.63532],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2176,13 +1402,8 @@
     "name": "Sekolah Tinggi Farmasi Indonesia",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.949144,
-      107.629953
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.949144, 107.629953],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2193,13 +1414,8 @@
     "name": "LPKIA Bandung",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.949541368234817,
-      107.6243293916731
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.949541368234817, 107.6243293916731],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2210,13 +1426,8 @@
     "name": "PT LEN Industri",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.949120307427549,
-      107.61899742676277
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.949120307427549, 107.61899742676277],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2227,13 +1438,8 @@
     "name": "Simpang Karasak 1",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.948381,
-      107.60875
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.948381, 107.60875],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2244,13 +1450,8 @@
     "name": "Karasak Utara",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.948161,
-      107.605095
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.948161, 107.605095],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2261,13 +1462,8 @@
     "name": "Karasak Lama",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.947924,
-      107.602184
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.947924, 107.602184],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2278,13 +1474,8 @@
     "name": "Flyover Kopo",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.9460511533251355,
-      107.5902855014204
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.9460511533251355, 107.5902855014204],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2295,13 +1486,8 @@
     "name": "Polsek Babakan Ciparay",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.936351358887582,
-      107.57873932536816
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.936351358887582, 107.57873932536816],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2312,13 +1498,8 @@
     "name": "Komplek Sumber Sari",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.932569,
-      107.576552
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.932569, 107.576552],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2329,13 +1510,8 @@
     "name": "Cibuntu Selatan",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.929410998997808,
-      107.57574430075158
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.929410998997808, 107.57574430075158],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2346,13 +1522,8 @@
     "name": "Holis",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.924840570923871,
-      107.57502203280389
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.924840570923871, 107.57502203280389],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2363,13 +1534,8 @@
     "name": "Sekolah Citra Cemara",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.919054,
-      107.574257
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.919054, 107.574257],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2377,16 +1543,11 @@
   },
   {
     "id": 3092,
-    "name": "BS26",
+    "name": "Batas Kota",
     "type": "On Corridor",
     "status": "Approximate",
-    "coords": [
-      -6.910938,
-      107.569333
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.910938, 107.569333],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2394,16 +1555,11 @@
   },
   {
     "id": 3093,
-    "name": "BS27",
+    "name": "RS Rajawali",
     "type": "On Corridor",
     "status": "Approximate",
-    "coords": [
-      -6.912174,
-      107.573192
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.912174, 107.573192],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2414,13 +1570,8 @@
     "name": "Elang Cibeureum",
     "type": "Big Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.913577,
-      107.575585
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.913577, 107.575585],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2428,16 +1579,11 @@
   },
   {
     "id": 3095,
-    "name": "BS28",
+    "name": "YWKA",
     "type": "On Corridor",
     "status": "Approximate",
-    "coords": [
-      -6.915843319643458,
-      107.5762984647886
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.915843319643458, 107.5762984647886],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2448,13 +1594,8 @@
     "name": "Garuda Dalam",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.916763627109002,
-      107.57690612210294
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.916763627109002, 107.57690612210294],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2462,16 +1603,11 @@
   },
   {
     "id": 3097,
-    "name": "BS25",
+    "name": "Bundaran Cibeureum",
     "type": "On Corridor",
     "status": "Approximate",
-    "coords": [
-      -6.917440088153112,
-      107.57524892530108
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.917440088153112, 107.57524892530108],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2482,13 +1618,8 @@
     "name": "SPBU Panghegar",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.919174398665233,
-      107.5744311510492
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.919174398665233, 107.5744311510492],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2499,13 +1630,8 @@
     "name": "Cibuntu Tengah",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.9252363494335425,
-      107.57527343775386
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.9252363494335425, 107.57527343775386],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2516,13 +1642,8 @@
     "name": "Terusan Suryani",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.928833895535442,
-      107.5758240043434
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.928833895535442, 107.5758240043434],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2533,13 +1654,8 @@
     "name": "Sumber Sari Junction",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.932355144968792,
-      107.57669491849516
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.932355144968792, 107.57669491849516],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2550,13 +1666,8 @@
     "name": "Taman Sakura Indah",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.936394096255446,
-      107.57895988681351
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.936394096255446, 107.57895988681351],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2567,13 +1678,8 @@
     "name": "Babakan Ciparay",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.943407938997715,
-      107.5851616744622
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.943407938997715, 107.5851616744622],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2584,13 +1690,8 @@
     "name": "Pusri",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.943935804761655,
-      107.58604842316076
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.943935804761655, 107.58604842316076],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2601,13 +1702,8 @@
     "name": "Terminal Leuwipanjang Soekarno-Hatta Utara",
     "type": "Big Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.946756005785516,
-      107.59340812195894
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.946756005785516, 107.59340812195894],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2618,13 +1714,8 @@
     "name": "Inhoftank",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.947767,
-      107.602825
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.947767, 107.602825],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2635,13 +1726,8 @@
     "name": "Sekolah Pelita Bangsa",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.947887,
-      107.604542
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.947887, 107.604542],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2652,13 +1738,8 @@
     "name": "Simpang Karasak 2",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.948169,
-      107.60849
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.948169, 107.60849],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2669,13 +1750,8 @@
     "name": "Sriwijaya Soekarno-Hatta",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.948458,
-      107.612161
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.948458, 107.612161],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2686,13 +1762,8 @@
     "name": "Seberang PT LEN Industri",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.948931,
-      107.619174
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.948931, 107.619174],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2703,13 +1774,8 @@
     "name": "Batununggal Soekarno-Hatta",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.949405981821188,
-      107.62652736739194
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.949405981821188, 107.62652736739194],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2720,13 +1786,8 @@
     "name": "Parakan Resik",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.949051,
-      107.629621
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.949051, 107.629621],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2737,13 +1798,8 @@
     "name": "Honda Naga Mas",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.947524963753798,
-      107.63475092718257
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.947524963753798, 107.63475092718257],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2754,13 +1810,8 @@
     "name": "Balai Kerja Latihan Mandiri",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.946432193753044,
-      107.6381535679936
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.946432193753044, 107.6381535679936],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2771,13 +1822,8 @@
     "name": "RSJP Paramarta",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.945686560252255,
-      107.64051008673654
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.945686560252255, 107.64051008673654],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2788,13 +1834,8 @@
     "name": "STT Mandala",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.9446037479909,
-      107.64384733065263
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.9446037479909, 107.64384733065263],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2805,13 +1846,8 @@
     "name": "SMK Medikacom",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.943642601221142,
-      107.64684419024051
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.943642601221142, 107.64684419024051],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2822,13 +1858,8 @@
     "name": "UNIBI",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.942467213474833,
-      107.65051119338176
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.942467213474833, 107.65051119338176],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2839,13 +1870,8 @@
     "name": "Cidurian 2",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.941753,
-      107.652857
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.941753, 107.652857],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2856,13 +1882,8 @@
     "name": "SMKN 9 Bandung",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.940467,
-      107.656901
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.940467, 107.656901],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2873,13 +1894,8 @@
     "name": "PT Suparma",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.939545,
-      107.660134
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.939545, 107.660134],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2890,13 +1906,8 @@
     "name": "Kawaluyaan",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.938949,
-      107.663553
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.938949, 107.663553],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2907,13 +1918,8 @@
     "name": "Seberang Metro Soekarno-Hatta",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.938744,
-      107.666622
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.938744, 107.666622],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2924,13 +1930,8 @@
     "name": "Dinas Kehutanan Provinsi Jawa Barat",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.938324068764867,
-      107.67208866951762
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.938324068764867, 107.67208866951762],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2941,13 +1942,8 @@
     "name": "Guruminda",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.937945,
-      107.677584
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.937945, 107.677584],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2958,13 +1954,8 @@
     "name": "Apartemen Tamansari Panoramic",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.937676,
-      107.681621
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.937676, 107.681621],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2975,13 +1966,8 @@
     "name": "Damri Bandung",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.937378,
-      107.685784
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.937378, 107.685784],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -2992,13 +1978,8 @@
     "name": "PT Taka Indonesia",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.937098599430339,
-      107.68897363247531
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.937098599430339, 107.68897363247531],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -3009,13 +1990,8 @@
     "name": "Cinambo 2",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.940218409510687,
-      107.69209559513338
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.940218409510687, 107.69209559513338],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -3026,13 +2002,8 @@
     "name": "Gedebage Selatan 2",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.9419579824952535,
-      107.69171914322936
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.9419579824952535, 107.69171914322936],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -3043,13 +2014,8 @@
     "name": "Masjid Jami Asy-Syuhada",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.944829645592741,
-      107.68909270708515
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.944829645592741, 107.68909270708515],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -3060,13 +2026,8 @@
     "name": "PT Primarindo Asia",
     "type": "Bus Pole",
     "status": "Approximate",
-    "coords": [
-      -6.94756070768462,
-      107.68850120160128
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.94756070768462, 107.68850120160128],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -3077,13 +2038,8 @@
     "name": "Taman Sumringah Summarecon",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.955154644183717,
-      107.69415451419766
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.955154644183717, 107.69415451419766],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -3094,13 +2050,8 @@
     "name": "Summarecon Mall Bandung 2",
     "type": "Big Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.955621386027636,
-      107.69911923170062
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.955621386027636, 107.69911923170062],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -3111,13 +2062,8 @@
     "name": "Pasar Modern Sinpasa 2",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.952934868186837,
-      107.69791908262557
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.952934868186837, 107.69791908262557],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -3128,13 +2074,8 @@
     "name": "Stasiun Cimekar 2",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.948311,
-      107.709937
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.948311, 107.709937],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -3145,13 +2086,8 @@
     "name": "Gerbang Biru GBLA 2",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.956911,
-      107.710796
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.956911, 107.710796],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",
@@ -3162,13 +2098,8 @@
     "name": "Gerbang Merah GBLA 2",
     "type": "Medium Shelter",
     "status": "Approximate",
-    "coords": [
-      -6.959056,
-      107.712775
-    ],
-    "routes": [
-      "BRT10"
-    ],
+    "coords": [-6.959056, 107.712775],
+    "routes": ["BRT10"],
     "description": "Position mapped by user for BRT10",
     "recommendation": "Approximate location.",
     "landOwnership": "Unknown",

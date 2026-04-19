@@ -1,6 +1,5 @@
 ---
 import shelterData from "../data/shelters.json";
-import routeData from "../data/routes.json";
 ---
 
 <div id="map"></div>
@@ -48,20 +47,9 @@ import routeData from "../data/routes.json";
             <span class="dot" style="background-color: transparent; border: 2px dashed #9ca3af; box-shadow: none;"></span>
             <span class="type-label" style="color: #6b7280;">Approximate / User Map</span>
         </div>
-        
-        <div style="margin-top: 12px; display: flex; flex-direction: column; gap: 8px;">
-            {routeData.map(route => (
-                <div class="legend-item" style={`display: flex; align-items: center; justify-content: space-between; background: ${route.color}11; padding: 6px 8px; border-radius: 6px; border: 1px solid ${route.color}22;`}>
-                    <div style="display: flex; align-items: center;">
-                        <div style={`height: 3px; width: 12px; background: ${route.color}; border-radius: 2px; margin-right: 8px;`}></div>
-                        <span class="type-label" style={`color: ${route.color}; font-size: 0.7rem;`}>{route.id}</span>
-                    </div>
-                    <label class="switch" style="width: 28px; height: 16px;">
-                        <input type="checkbox" checked onchange={`window.toggleRoute('${route.id}', this.checked)`}>
-                        <span class="slider round" style="before: {height: 10px; width: 10px; bottom: 3px; left: 3px;}"></span>
-                    </label>
-                </div>
-            ))}
+        <div class="legend-item" style="margin-top: 4px;">
+            <span class="dot" style="background-color: #3388ff; border: 2px solid #fff;"></span>
+            <span class="type-label" style="color: #10b981;">Surveyed (LARAP)</span>
         </div>
     </div>
 </div>
@@ -167,6 +155,11 @@ import routeData from "../data/routes.json";
         box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
         flex-shrink: 0;
     }
+    .legend-divider {
+        height: 1px;
+        background: #e5e7eb;
+        margin: 12px 0;
+    }
     .shelter-img {
         width: 100%;
         border-radius: 8px;
@@ -198,52 +191,7 @@ import routeData from "../data/routes.json";
         color: #6b7280;
     }
 
-    /* Switch Toggle */
-    .switch {
-        position: relative;
-        display: inline-block;
-        width: 32px;
-        height: 18px;
-    }
-    .switch input {
-        opacity: 0;
-        width: 0;
-        height: 0;
-    }
-    .slider {
-        position: absolute;
-        cursor: pointer;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: #ccc;
-        transition: .4s;
-    }
-    .slider:before {
-        position: absolute;
-        content: "";
-        height: 12px;
-        width: 12px;
-        left: 3px;
-        bottom: 3px;
-        background-color: white;
-        transition: .4s;
-    }
-    input:checked + .slider {
-        background-color: #f59e0b;
-    }
-    input:checked + .slider:before {
-        transform: translateX(14px);
-    }
-    .slider.round {
-        border-radius: 34px;
-    }
-    .slider.round:before {
-        border-radius: 50%;
-    }
-
-    /* Modern Popup Styling (Targeting dynamic Leaflet elements) */
+    /* Modern Popup Styling */
     :global(.leaflet-popup-content-wrapper) {
         padding: 0 !important;
         border-radius: 16px !important;
@@ -256,34 +204,19 @@ import routeData from "../data/routes.json";
         width: 320px !important;
         line-height: 1.5 !important;
     }
-    :global(.leaflet-popup-tip) {
-        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15) !important;
-    }
-    :global(.leaflet-container a.leaflet-popup-close-button) {
-        color: #999 !important;
-        padding: 8px 12px 0 0 !important;
-    }
-
-    /* Scoped classes that become global for the popup */
     :global(.custom-popup) {
         display: flex !important;
         flex-direction: column !important;
-        font-family:
-            system-ui,
-            -apple-system,
-            sans-serif !important;
+        font-family: system-ui, sans-serif !important;
     }
     :global(.popup-header) {
         padding: 16px 16px 12px !important;
-        background: white !important;
     }
     :global(.popup-header h3) {
-        margin: 0 0 6px 0 !important;
+        margin: 0 !important;
         font-size: 1.15rem !important;
         font-weight: 800 !important;
         color: #1a1a1a !important;
-        letter-spacing: -0.02em !important;
-        line-height: 1.2 !important;
     }
     :global(.badge) {
         display: inline-block !important;
@@ -292,23 +225,6 @@ import routeData from "../data/routes.json";
         font-size: 0.7rem !important;
         font-weight: 700 !important;
         text-transform: uppercase !important;
-        letter-spacing: 0.05em !important;
-    }
-    :global(.popup-image-container) {
-        position: relative !important;
-        padding: 0 16px !important;
-    }
-    :global(.zoom-hint) {
-        position: absolute !important;
-        bottom: 8px !important;
-        right: 24px !important;
-        background: rgba(0, 0, 0, 0.5) !important;
-        color: white !important;
-        padding: 2px 8px !important;
-        border-radius: 4px !important;
-        font-size: 10px !important;
-        backdrop-filter: blur(4px) !important;
-        pointer-events: none !important;
     }
     :global(.popup-body) {
         padding: 16px !important;
@@ -323,7 +239,6 @@ import routeData from "../data/routes.json";
         color: #9ca3af !important;
         text-transform: uppercase !important;
         margin-bottom: 4px !important;
-        letter-spacing: 0.05em !important;
     }
     :global(.recommendation) {
         font-size: 0.95rem !important;
@@ -331,32 +246,10 @@ import routeData from "../data/routes.json";
         font-weight: 500 !important;
         margin: 0 !important;
     }
-    :global(.route-tags) {
-        display: flex !important;
-        flex-wrap: wrap !important;
-        gap: 6px !important;
-    }
-    :global(.route-tag) {
-        background: #f3f4f6 !important;
-        color: #4b5563 !important;
-        padding: 2px 8px !important;
-        border-radius: 4px !important;
-        font-size: 0.75rem !important;
-        font-weight: 600 !important;
-        font-family: monospace !important;
-    }
     :global(.description) {
         font-size: 0.85rem !important;
         color: #6b7280 !important;
         margin: 0 !important;
-    }
-    :global(.popup-footer) {
-        background: #f9fafb !important;
-        padding: 10px 16px !important;
-        font-size: 0.7rem !important;
-        color: #9ca3af !important;
-        border-top: 1px solid #f3f4f6 !important;
-        text-align: center !important;
     }
 </style>
 
@@ -367,10 +260,9 @@ import routeData from "../data/routes.json";
     href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
 />
 
-<script define:vars={{ shelterData, routeData }}>
-    const map = L.map("map").setView([-6.94, 107.65], 13);
+<script define:vars={{ shelterData }}>
+    const map = L.map("map").setView([-6.92, 107.63], 12);
 
-    // Using CartoDB Positron for a clean, professional gray theme
     L.tileLayer(
         "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
         {
@@ -379,50 +271,6 @@ import routeData from "../data/routes.json";
             maxZoom: 20,
         },
     ).addTo(map);
-
-    const routeLayers = {};
-
-    // Render Routes with OSRM
-    async function renderRoute(route) {
-        const coords = route.stop_ids.map(id => {
-            const s = shelterData.find(x => x.id === id);
-            return s ? [s.coords[1], s.coords[0]] : null;
-        }).filter(c => c !== null);
-
-        if (coords.length < 2) return;
-
-        const group = L.layerGroup(); // Create but don't add to map yet
-        routeLayers[route.id] = group;
-
-        const query = coords.map(c => c.join(',')).join(';');
-        try {
-            const res = await fetch(`https://router.project-osrm.org/route/v1/driving/${query}?overview=full&geometries=geojson`);
-            const data = await res.json();
-            if (data.routes && data.routes[0]) {
-                L.geoJSON(data.routes[0].geometry, {
-                    style: { color: route.color, weight: 6, opacity: 0.4 }
-                }).addTo(group);
-                
-                L.geoJSON(data.routes[0].geometry, {
-                    style: { color: route.color, weight: 2, opacity: 0.8 }
-                }).addTo(group).bindTooltip(route.name, { sticky: true });
-            }
-        } catch (e) {
-            console.error("OSRM Error:", e);
-        }
-    }
-
-    routeData.forEach(renderRoute);
-
-    window.toggleRoute = function(id, visible) {
-        const layer = routeLayers[id];
-        if (!layer) return;
-        if (visible) {
-            map.addLayer(layer);
-        } else {
-            map.removeLayer(layer);
-        }
-    };
 
     shelterData.forEach((shelter) => {
         const isApprox = shelter.status === "Approximate";
@@ -435,7 +283,7 @@ import routeData from "../data/routes.json";
             fillColor: isApprox ? "transparent" : markerColor,
             color: markerColor,
             weight: isApprox ? 3 : 2,
-            dashArray: isApprox ? "4, 3" : null, // Dotted line for approximate
+            dashArray: isApprox ? "4, 3" : null,
             opacity: 1,
             fillOpacity: isApprox ? 0 : 0.9,
         }).addTo(map);
@@ -455,21 +303,19 @@ import routeData from "../data/routes.json";
             </div>
 
             ${!isApprox ? `
-            <div class="popup-image-container">
+            <div style="padding: 0 16px;">
                 <img src="/survey_picture/shelter-${shelter.id}.webp"
                      class="shelter-img"
                      onclick="openImageModal(this)"
                      data-full="/survey_picture/shelter-${shelter.id}.webp"
                      alt="${shelter.name}" />
-                <div class="zoom-hint">Click to enlarge</div>
             </div>` : `
             <div style="padding: 0 16px; margin-bottom: 8px;">
-                <div style="background: #f9fafb; border: 2px dashed #e5e7eb; border-radius: 8px; height: 100px; display: flex; align-items: center; justify-content: center; color: #9ca3af; font-size: 11px; text-align: center; padding: 10px;">
-                    Estimated position from LARAP route diagram.<br/>Detailed survey data not found.
+                <div style="background: #f9fafb; border: 2px dashed #e5e7eb; border-radius: 8px; height: 80px; display: flex; align-items: center; justify-content: center; color: #9ca3af; font-size: 11px; text-align: center; padding: 10px;">
+                    Position estimated.<br/>No survey data available.
                 </div>
             </div>
             `}
-
 
             <div class="popup-body">
                 <div class="info-section">
@@ -482,17 +328,7 @@ import routeData from "../data/routes.json";
                     <div class="impact-tags" style="display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px;">
                         ${shelter.impacts && shelter.impacts.length > 0 
                             ? shelter.impacts.map(i => `
-                                <span class="impact-tag" style="
-                                    background: #fee2e2; 
-                                    color: #991b1b; 
-                                    padding: 2px 8px; 
-                                    border-radius: 4px; 
-                                    font-size: 10px; 
-                                    font-weight: 700; 
-                                    border: 1px solid #fecaca;
-                                    display: inline-block;
-                                    white-space: nowrap;
-                                ">${i}</span>`).join("") 
+                                <span class="impact-tag" style="background: #fee2e2; color: #991b1b; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; border: 1px solid #fecaca; display: inline-block;">${i}</span>`).join("") 
                             : '<span class="description" style="font-style: italic; color: #9ca3af; font-size: 12px;">None / Clear</span>'}
                     </div>
                     <p class="description" style="margin-top: 10px; font-size: 11px; color: #6b7280;">
@@ -501,28 +337,14 @@ import routeData from "../data/routes.json";
                 </div>
 
                 <div class="info-section">
-                    <label>Route BRT</label>
-                    <div class="route-tags">
-                        ${shelter.routes.map((r) => `<span class="route-tag">${r}</span>`).join("")}
-                    </div>
-                </div>
-
-                <div class="info-section">
                     <label>Location Description</label>
                     <p class="description">${shelter.description}</p>
                 </div>
             </div>
-
-            <div class="popup-footer">
-                Survey LARAP • Dec 2025
-            </div>
           </div>
         `;
 
-        marker.bindPopup(popupContent, {
-            maxWidth: 320,
-            className: "modern-popup",
-        });
+        marker.bindPopup(popupContent, { maxWidth: 320 });
     });
 
     window.openImageModal = function (img) {
@@ -538,7 +360,6 @@ import routeData from "../data/routes.json";
         const modal = document.getElementById("image-modal");
         const modalImage = document.getElementById("modal-image");
         if (modal && modalImage) {
-            // Mapping type to filename in public/shelter_design/
             modalImage.src = `/shelter_design/${type}.webp`;
             modal.style.display = "flex";
         }
@@ -552,10 +373,4 @@ import routeData from "../data/routes.json";
             modalImage.src = "";
         }
     };
-
-    document.addEventListener("keydown", function (e) {
-        if (e.key === "Escape") {
-            window.closeImageModal();
-        }
-    });
 </script>

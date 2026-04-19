@@ -22,3 +22,8 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# local settings
+public/docs/
+parse_all_routes.js
+parse_approx.js
