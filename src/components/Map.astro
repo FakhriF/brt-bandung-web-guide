@@ -1,41 +1,73 @@
 ---
 import shelterData from "../data/shelters.json";
+import routeData from "../data/routes.json";
 ---
 
 <div id="map"></div>
 
 <div class="map-legend">
-    <h4>Tipe Halte</h4>
-    <div class="legend-item">
-        <span class="dot" style="background-color: #FFD700;"></span>
-        <div class="legend-text">
-            <span class="type-label">Big Shelter</span>
-            <button onclick="window.openDesignModal('big')" class="design-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
-                Desain
-            </button>
+    <div class="legend-section">
+        <h4>Tipe Halte</h4>
+        <div class="legend-item">
+            <span class="dot" style="background-color: #FFD700;"></span>
+            <div class="legend-text">
+                <span class="type-label">Big Shelter</span>
+                <button onclick="window.openDesignModal('big')" class="design-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                    Desain
+                </button>
+            </div>
+        </div>
+        <div class="legend-item">
+            <span class="dot" style="background-color: #3388ff;"></span>
+            <div class="legend-text">
+                <span class="type-label">Medium Shelter</span>
+                <button onclick="window.openDesignModal('medium')" class="design-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                    Desain
+                </button>
+            </div>
+        </div>
+        <div class="legend-item">
+            <span class="dot" style="background-color: #FF4500;"></span>
+            <div class="legend-text">
+                <span class="type-label">Bus Pole</span>
+                <button onclick="window.openDesignModal('pole')" class="design-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                    Desain
+                </button>
+            </div>
         </div>
     </div>
-    <div class="legend-item">
-        <span class="dot" style="background-color: #3388ff;"></span>
-        <div class="legend-text">
-            <span class="type-label">Medium Shelter</span>
-            <button onclick="window.openDesignModal('medium')" class="design-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
-                Desain
-            </button>
+
+    <div class="legend-divider"></div>
+
+    <div class="legend-section">
+        <h4>Mapping Status</h4>
+        <div class="legend-item">
+            <span class="dot" style="background-color: transparent; border: 2px dashed #9ca3af; box-shadow: none;"></span>
+            <span class="type-label" style="color: #6b7280;">Approximate / User Map</span>
+        </div>
+        
+        <div style="margin-top: 12px; display: flex; flex-direction: column; gap: 8px;">
+            {routeData.map(route => (
+                <div class="legend-item" style={`display: flex; align-items: center; justify-content: space-between; background: ${route.color}11; padding: 6px 8px; border-radius: 6px; border: 1px solid ${route.color}22;`}>
+                    <div style="display: flex; align-items: center;">
+                        <div style={`height: 3px; width: 12px; background: ${route.color}; border-radius: 2px; margin-right: 8px;`}></div>
+                        <span class="type-label" style={`color: ${route.color}; font-size: 0.7rem;`}>{route.id}</span>
+                    </div>
+                    <label class="switch" style="width: 28px; height: 16px;">
+                        <input type="checkbox" checked onchange={`window.toggleRoute('${route.id}', this.checked)`}>
+                        <span class="slider round" style="before: {height: 10px; width: 10px; bottom: 3px; left: 3px;}"></span>
+                    </label>
+                </div>
+            ))}
         </div>
     </div>
-    <div class="legend-item">
-        <span class="dot" style="background-color: #FF4500;"></span>
-        <div class="legend-text">
-            <span class="type-label">Bus Pole</span>
-            <button onclick="window.openDesignModal('pole')" class="design-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
-                Desain
-            </button>
-        </div>
-    </div>
+</div>
+
+<div class="map-disclaimer">
+    <p><strong>Disclaimer:</strong> This is a visualization based on public LARAP Dec 2025 documents and independent user mapping. Approximate locations are estimates and may not reflect final construction points.</p>
 </div>
 
 <div
@@ -144,6 +176,71 @@ import shelterData from "../data/shelters.json";
     }
     .shelter-img:hover {
         transform: scale(1.02);
+    }
+    .map-disclaimer {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        z-index: 1000;
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(8px);
+        padding: 8px 16px;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        max-width: 300px;
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        font-family: system-ui, sans-serif;
+    }
+    .map-disclaimer p {
+        margin: 0;
+        font-size: 0.65rem;
+        line-height: 1.4;
+        color: #6b7280;
+    }
+
+    /* Switch Toggle */
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 32px;
+        height: 18px;
+    }
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        transition: .4s;
+    }
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 12px;
+        width: 12px;
+        left: 3px;
+        bottom: 3px;
+        background-color: white;
+        transition: .4s;
+    }
+    input:checked + .slider {
+        background-color: #f59e0b;
+    }
+    input:checked + .slider:before {
+        transform: translateX(14px);
+    }
+    .slider.round {
+        border-radius: 34px;
+    }
+    .slider.round:before {
+        border-radius: 50%;
     }
 
     /* Modern Popup Styling (Targeting dynamic Leaflet elements) */
@@ -270,8 +367,8 @@ import shelterData from "../data/shelters.json";
     href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
 />
 
-<script define:vars={{ shelterData }}>
-    const map = L.map("map").setView([-6.9175, 107.6191], 13);
+<script define:vars={{ shelterData, routeData }}>
+    const map = L.map("map").setView([-6.94, 107.65], 13);
 
     // Using CartoDB Positron for a clean, professional gray theme
     L.tileLayer(
@@ -283,29 +380,81 @@ import shelterData from "../data/shelters.json";
         },
     ).addTo(map);
 
+    const routeLayers = {};
+
+    // Render Routes with OSRM
+    async function renderRoute(route) {
+        const coords = route.stop_ids.map(id => {
+            const s = shelterData.find(x => x.id === id);
+            return s ? [s.coords[1], s.coords[0]] : null;
+        }).filter(c => c !== null);
+
+        if (coords.length < 2) return;
+
+        const group = L.layerGroup(); // Create but don't add to map yet
+        routeLayers[route.id] = group;
+
+        const query = coords.map(c => c.join(',')).join(';');
+        try {
+            const res = await fetch(`https://router.project-osrm.org/route/v1/driving/${query}?overview=full&geometries=geojson`);
+            const data = await res.json();
+            if (data.routes && data.routes[0]) {
+                L.geoJSON(data.routes[0].geometry, {
+                    style: { color: route.color, weight: 6, opacity: 0.4 }
+                }).addTo(group);
+                
+                L.geoJSON(data.routes[0].geometry, {
+                    style: { color: route.color, weight: 2, opacity: 0.8 }
+                }).addTo(group).bindTooltip(route.name, { sticky: true });
+            }
+        } catch (e) {
+            console.error("OSRM Error:", e);
+        }
+    }
+
+    routeData.forEach(renderRoute);
+
+    window.toggleRoute = function(id, visible) {
+        const layer = routeLayers[id];
+        if (!layer) return;
+        if (visible) {
+            map.addLayer(layer);
+        } else {
+            map.removeLayer(layer);
+        }
+    };
+
     shelterData.forEach((shelter) => {
+        const isApprox = shelter.status === "Approximate";
         let markerColor = "#3388ff"; // Default Blue
         if (shelter.type === "Big Shelter") markerColor = "#FFD700"; // Gold
         if (shelter.type === "Bus Pole") markerColor = "#FF4500"; // Red-Orange
 
         const marker = L.circleMarker(shelter.coords, {
             radius: 8,
-            fillColor: markerColor,
-            color: "#fff",
-            weight: 2,
+            fillColor: isApprox ? "transparent" : markerColor,
+            color: markerColor,
+            weight: isApprox ? 3 : 2,
+            dashArray: isApprox ? "4, 3" : null, // Dotted line for approximate
             opacity: 1,
-            fillOpacity: 0.9,
+            fillOpacity: isApprox ? 0 : 0.9,
         }).addTo(map);
 
         const popupContent = `
           <div class="custom-popup">
             <div class="popup-header">
-                <h3>${shelter.name}</h3>
-                <span class="badge" style="background: ${markerColor}22; color: ${markerColor}; border: 1px solid ${markerColor}44;">
+                <div style="display: flex; justify-content: space-between; align-items: start;">
+                    <h3>${shelter.name}</h3>
+                    <span style="font-size: 9px; font-weight: 800; color: ${isApprox ? '#6b7280' : '#10b981'}; text-transform: uppercase; letter-spacing: 0.05em; background: ${isApprox ? '#f3f4f6' : '#ecfdf5'}; padding: 2px 6px; border-radius: 4px; border: 1px solid ${isApprox ? '#d1d5db' : '#d1fae5'};">
+                        ${isApprox ? 'Approximate' : 'Surveyed'}
+                    </span>
+                </div>
+                <span class="badge" style="background: ${markerColor}22; color: ${markerColor}; border: 1px solid ${markerColor}44; margin-top: 4px;">
                     ${shelter.type}
                 </span>
             </div>
 
+            ${!isApprox ? `
             <div class="popup-image-container">
                 <img src="/survey_picture/shelter-${shelter.id}.webp"
                      class="shelter-img"
@@ -313,12 +462,42 @@ import shelterData from "../data/shelters.json";
                      data-full="/survey_picture/shelter-${shelter.id}.webp"
                      alt="${shelter.name}" />
                 <div class="zoom-hint">Click to enlarge</div>
+            </div>` : `
+            <div style="padding: 0 16px; margin-bottom: 8px;">
+                <div style="background: #f9fafb; border: 2px dashed #e5e7eb; border-radius: 8px; height: 100px; display: flex; align-items: center; justify-content: center; color: #9ca3af; font-size: 11px; text-align: center; padding: 10px;">
+                    Estimated position from LARAP route diagram.<br/>Detailed survey data not found.
+                </div>
             </div>
+            `}
+
 
             <div class="popup-body">
                 <div class="info-section">
                     <label>Recommendation</label>
                     <p class="recommendation">${shelter.recommendation}</p>
+                </div>
+
+                <div class="info-section">
+                    <label>Social Impact & Assets</label>
+                    <div class="impact-tags" style="display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px;">
+                        ${shelter.impacts && shelter.impacts.length > 0 
+                            ? shelter.impacts.map(i => `
+                                <span class="impact-tag" style="
+                                    background: #fee2e2; 
+                                    color: #991b1b; 
+                                    padding: 2px 8px; 
+                                    border-radius: 4px; 
+                                    font-size: 10px; 
+                                    font-weight: 700; 
+                                    border: 1px solid #fecaca;
+                                    display: inline-block;
+                                    white-space: nowrap;
+                                ">${i}</span>`).join("") 
+                            : '<span class="description" style="font-style: italic; color: #9ca3af; font-size: 12px;">None / Clear</span>'}
+                    </div>
+                    <p class="description" style="margin-top: 10px; font-size: 11px; color: #6b7280;">
+                        <strong style="color: #4b5563;">Ownership:</strong> ${shelter.landOwnership || 'Unknown'}
+                    </p>
                 </div>
 
                 <div class="info-section">
